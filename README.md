@@ -30,3 +30,5 @@ Zenodo [10.5281/zenodo.24239158](https://doi.org/10.5281/zenodo.24239158). ChatG
 proofs, programs and the article draft in separate threads; Anthropic Claude, the lab's guide, read the proofs line by line,
 re-derived the finite results with independent programs (nauty `geng` and exact arithmetic, `certificates/guide-checks/`) and
 checked every reference. The author of record takes responsibility for the content. Text and data CC BY 4.0, code MIT.
+
+Archived on Zenodo: version 1.0, [doi:10.5281/zenodo.24241527](https://doi.org/10.5281/zenodo.24241527) (all versions: [doi:10.5281/zenodo.24241526](https://doi.org/10.5281/zenodo.24241526)).
