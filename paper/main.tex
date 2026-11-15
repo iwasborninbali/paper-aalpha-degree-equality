@@ -75,10 +75,10 @@ Corollary~21. For example, $K_1\vee K_{2,2}$ attains both bounds at
 $\alpha=1/4$ (Section~\ref{sec:examples}).
 
 The lineage matters. Merris's degree-plus-average-neighbour-degree bound
-for the Laplacian~\cite{Merris1998} and the signless-Laplacian equality
-case due to Feng and Yu~\cite{FengYu2009} precede Nikiforov's
-$A_\alpha$ formulation. At $\alpha=1/2$ the semiregular bipartite
-characterization is therefore \emph{not} presented as new. In later work,
+for the Laplacian~\cite{Merris1998} and Feng and Yu's signless-Laplacian
+equality theorem~\cite[Lemma~2.3]{FengYu2009} precede Nikiforov's
+$A_\alpha$ formulation. The characterization at $\alpha=1/2$
+is due to Feng and Yu. In later work,
 Liu, Das and Shu~\cite[Lemmas~2.9--2.10 and Theorems~5.4--5.6]{LiuDasShu2020}
 consider related degree conditions and equality statements; in particular,
 Theorem~5.4 concerns the \emph{edge} bounds, and Theorem~5.6 addresses
@@ -89,8 +89,13 @@ and associated regular/semiregular cases. The adjacency endpoint $\alpha=0$
 is related to the established theory of harmonic graphs, for which
 $A\dd=\lambda\dd$; see, for example,
 Petrovi\'c, Borovi\'canin and Radosavljevi\'c~\cite{Petrovic2006}.
-Our assertion of non-detection in a dated search is not a claim that these
-results are first in the literature; see Section~\ref{sec:priority}.
+Ghebleh, Al-Yakoob, Kanso and Stevanovi\'c~\cite{GheblehEtAl2025}
+construct graphs with arbitrarily many distinct degrees and precisely two
+main \emph{adjacency} eigenvalues; in particular their harmonic case
+satisfies $A\dd=\lambda\dd$ at $\alpha=0$. This is a different
+condition from $A_\alpha\dd=\rho_\alpha\dd$ at a fixed positive
+$\alpha$. The publication search is bounded; see
+Section~\ref{sec:priority}.
 
 \section{The equality equation and structural restrictions}
 \begin{lemma}[Perron row-sum criterion]\label{lem:rows}
@@ -331,8 +336,17 @@ The graph $K_1\vee K_{2,2}$ is another connected, nonregular example:
 the degree-$4$ vertex has neighbour-degree sum $12$ and the four
 degree-$3$ vertices each have sum $10$. At $\alpha=1/4$ the two
 row sums are both $13/4$, so $\rho_{1/4}=13/4$ by
-Lemma~\ref{lem:rows}. These split and join examples were already
-recorded in the Athanor priority audit; no priority is claimed for them.
+Lemma~\ref{lem:rows}. A published special case appears in Alhevaz, Baghipur, Ganie and
+Das~\cite[Remark~2.4]{AlhevazEtAl2023}: for
+$K_4-e=K_2\vee\overline{K_2}$, they give the two expressions
+$3-\alpha$ and $7/3+(2/3)\alpha$ in Nikiforov's vertexwise bound.
+They coincide at $\alpha=2/5$, implicitly giving equality in both
+(20)--(21) by Lemma~\ref{lem:rows}. Their remark compares upper
+bounds and does not explicitly frame the example as a counterexample
+to Nikiforov's expectation. The general family
+$K_t\vee\overline{K_m}$ with parameter \eqref{eq:split}, and that
+framing, were not found in two independent bounded audits and the
+author's search; this is not a publication-priority claim.
 
 \begin{theorem}[All interior rational parameters]\label{thm:rationals}
 Among connected nonregular graphs, the parameters $0<\alpha<1$
@@ -578,7 +592,7 @@ row equations constitute the finite certificate.
 \end{proof}
 
 One of the order-nine records is the five-degree witness with
-column-packed C code 	exttt{00d47e9ed}. In vertex order its degrees and
+column-packed C code \texttt{00d47e9ed}. In vertex order its degrees and
 neighbour-degree sums, respectively, are
 \[
  (2,3,3,4,4,4,5,5,6),\qquad
@@ -605,16 +619,20 @@ Problem~22. The journal also contains a corrected version
 of a \emph{different} least-eigenvalue Proposition~29; that
 preprint discrepancy is not relevant to the present result
 and is not claimed as a correction to the journal.
-Our searches of the indicated $A_\alpha$ literature on
-15 November 2026 did not locate an explicit publication
-of the general integral recognition criterion, the
-all-interior-rationals construction, the staircase family, or
-the order-ten census. This is a \emph{bounded search}, not
-proof of publication priority or originality. In particular,
-Theorem~\ref{thm:structure} at $\alpha=1/2$ was known in
-the signless-Laplacian setting, Nikiforov already proved
-regularity for $\alpha>1/2$, and the split-graph
-counterexamples were present in the lab's earlier audit.
+Explicit publications of the general integral recognition criterion,
+the all-interior-rationals construction, the staircase family, and
+the order-ten census were \emph{not found in two independent bounded
+audits and the author's search}, all dated 15 November 2026; this
+is not proof of publication priority or originality. In particular,
+Feng and Yu~\cite[Lemma~2.3]{FengYu2009} established the
+$\alpha=1/2$ case, Nikiforov proved regularity for $\alpha>1/2$,
+and Alhevaz et al.~\cite[Remark~2.4]{AlhevazEtAl2023} published the
+$K_4-e$ expressions whose intersection gives the $\alpha=2/5$
+example. Ghebleh et al.~\cite{GheblehEtAl2025} obtain unbounded
+degree variety for the distinct, two-main-adjacency-eigenvalue problem;
+their construction does not assert equality in (20)--(21) at positive
+$\alpha$. The separate access levels and non-exhaustive searches are
+documented in \path{PRIOR-ART.md}.
 The finite census has not been independently reproduced by
 a \emph{third} exhaustive generator at order ten, and no
 formal proof-assistant verification is claimed. Floating-point
