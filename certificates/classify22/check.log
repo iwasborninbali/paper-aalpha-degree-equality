@@ -1,0 +1,18 @@
+CENSUS 2 connected 1 regular 1 irregular 0 degrees []
+CENSUS 3 connected 2 regular 1 irregular 1 degrees [(2, 1)]
+CENSUS 4 connected 6 regular 2 irregular 3 degrees [(2, 3)]
+CENSUS 5 connected 21 regular 2 irregular 7 degrees [(2, 6), (3, 1)]
+CENSUS 6 connected 112 regular 5 irregular 19 degrees [(2, 17), (3, 2)]
+CENSUS 7 connected 853 regular 4 irregular 23 degrees [(2, 18), (3, 4), (4, 1)]
+CENSUS 8 connected 11117 regular 17 irregular 82 degrees [(2, 77), (3, 2), (4, 3)]
+CENSUS 9 connected 261080 regular 22 irregular 128 degrees [(2, 107), (3, 19), (4, 1), (5, 1)]
+ATLAS-INDEPENDENT 2 connected 1 regular 1 irregular 0 witness-bijection PASS
+ATLAS-INDEPENDENT 3 connected 2 regular 1 irregular 1 witness-bijection PASS
+ATLAS-INDEPENDENT 4 connected 6 regular 2 irregular 3 witness-bijection PASS
+ATLAS-INDEPENDENT 5 connected 21 regular 2 irregular 7 witness-bijection PASS
+ATLAS-INDEPENDENT 6 connected 112 regular 5 irregular 19 witness-bijection PASS
+ATLAS-INDEPENDENT 7 connected 853 regular 4 irregular 23 witness-bijection PASS
+PAIRWISE-WITNESS-NONISOMORPHISM 263 PASS
+FIVE-DEGREE 9 code 00d47e9ed alpha 1/3 rho 13/3 degrees [2, 3, 3, 4, 4, 4, 5, 5, 6] neighbor-degree-sums [11, 15, 15, 18, 18, 18, 20, 20, 21]
+FIVE-DEGREE-EDGES [(0, 7), (0, 8), (1, 5), (1, 7), (1, 8), (2, 4), (2, 6), (2, 8), (3, 4), (3, 5), (3, 6), (3, 7), (4, 6), (4, 8), (5, 6), (5, 8), (6, 7), (7, 8)]
+TOTAL 263 irregular certificates; all exact checks PASS
