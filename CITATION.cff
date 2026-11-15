@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the draft article and consult the linked evidence certificates."
+title: "Equality in Nikiforov's average-neighbour-degree bounds for A_alpha"
+authors:
+  - family-names: Kudriashov
+    given-names: Aleksei
+    affiliation: "Athanor lab, Bali, Indonesia"
+    orcid: "https://orcid.org/0009-0006-8885-5338"
+version: "0.1.0-draft"
+date-released: 2026-11-15
+license: CC-BY-4.0
+repository-code: "https://github.com/iwasborninbali/paper-aalpha-degree-equality"
+url: "https://github.com/iwasborninbali/paper-aalpha-degree-equality/tree/agent/draft-2026-11-15/paper"
+preferred-citation:
+  type: generic
+  title: "Equality in Nikiforov's average-neighbour-degree bounds for A_alpha"
+  authors:
+    - family-names: Kudriashov
+      given-names: Aleksei
+      orcid: "https://orcid.org/0009-0006-8885-5338"
+  year: 2026
+  url: "https://github.com/iwasborninbali/paper-aalpha-degree-equality"
+references:
+  - type: generic
+    title: "Athanor A_alpha spectral research archive and certificates"
+    doi: "10.5281/zenodo.24239158"
